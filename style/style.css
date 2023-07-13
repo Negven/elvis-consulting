@@ -24,7 +24,7 @@ a {
 
 html {
     font-family: Droid Sans, serif;
-    font-size: 10px;
+    font-size: 7px;
 }
 
 
@@ -40,13 +40,13 @@ li {
 }
 
 .wrapper {
-    max-width: 1550px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .header__list {
     display: flex;
-    width: 370px;
+    width: 320px;
     justify-content: space-between;
     align-items: center;
 }
@@ -62,8 +62,8 @@ h1 {
 }
 
 .icon-link {
-    width: 75px;
-    height: 75px;
+    width: 65px;
+    height: 65px;
 }
 
 .about {
@@ -122,8 +122,8 @@ h2 {
 
 .button {
     margin-top: 53px;
-    width: 66rem;
-    height: 152px;
+    width: 60rem;
+    height: 122px;
     background: #020202;
     color: #FFF;
     font-size: 4.5rem;
@@ -134,17 +134,17 @@ h2 {
 }
 
 .button_arrow {
-    padding-right: 6rem;
+    padding-right: 8rem;
 }
 
 .button_arrow::after {
     position: absolute;
-    margin: 1rem 2rem;
+    margin: 1rem 2rem 0;
     content: '';
-    width: 6.3rem;
-    height: 3.6rem;
-    background-size: 100%;
+    width: 70px;
+    height: 35px;
     background: url("../img/arrow_btn.svg") no-repeat;
+    background-size: 70%;
 }
 
 .gallery {
@@ -202,7 +202,7 @@ h3 {
 }
 
 .leaders__container {
-    padding: 0 150px ;
+    padding: 0 70px ;
     margin-bottom: 50px;
 }
 
