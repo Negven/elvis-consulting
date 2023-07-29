@@ -16,6 +16,10 @@
         margin-top: 0;
     }
 
+    .book br {
+        display: none;
+    }
+
     .about__text-container .paragraph {
         display: inline;
     }
