@@ -1,5 +1,5 @@
-const srcBigScreenPattern = "/img/leaders/leaders";
-const srcSmallScreenPattern = "/img/leaders/mobile/leaders";
+const srcBigScreenPattern = "img/leaders/leaders";
+const srcSmallScreenPattern = "img/leaders/mobile/leaders";
 const imgLeadersArray = [...document.querySelector(".leaders__line").children];
 const imgGallery = document.querySelector(".gallery__container");
 const mobileWidth = 800;
