@@ -30,17 +30,37 @@
     </div>
     <section class="about">
         <div class="wrapper">
-            <h2 >Hello, I am Elvis Rublovskis,</h2>
-            <h2>Creative director, brand builder, leader.</h2>
+            <h2 >Hello, I am Elvis Rublovskis, Creative director, brand builder, leader.</h2>
+            <ul class="header__list mobile-version header__list_mobile-version">
+                <li>
+                    <a href="mailto:"><img class="icon-link" alt="gmail icon" src="img/gmail.svg" /></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/elvis.consulting/"><img class="icon-link" alt="instagram icon" src="img/instagram.svg" /></a>
+                </li>
+                <li>
+                    <a href="https://www.behance.net/elvis_rublovskis"><img class="icon-link" alt="behance icon" src="img/free-behance.svg" /></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/elvis-rublovskis/"><img class="icon-link" alt="linkedin icon" src="img/linkedin.svg" /></a>
+                </li>
+            </ul>
             <div class="about__block-text">
                 <div class="about__arrow-container">
                     <img class="about__arrow" src="img/arrow.svg">
                     <img class="about__arrow about__arrow_left" src="img/arrow.svg">
                     <img class="about__arrow" src="img/arrow.svg">
                 </div>
-                <p class="paragraph">
-                    15+ years of experience in marketing and advertising. My primary interest is launching brands worldwide: Asia, Latin America, Africa, Europe.
-                </p>
+                <div class="about__text-container">
+                    <img class="about__arrow mobile-version" src="img/arrow.svg">
+                    <p class="paragraph">
+                        15+ years of experience in marketing and advertising.
+                    </p>
+                    <img class="about__arrow mobile-version" src="img/arrow.svg">
+                    <p class="paragraph">
+                        My primary interest is launching brands worldwide: Asia, Latin America, Africa, Europe.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
@@ -59,15 +79,21 @@
     </section>
     <section class="gallery">
         <div class="gallery__container">
-            <img class="gallery__img" alt="example" src="img/examples/example1.png" />
             <img class="gallery__img" alt="example" src="img/examples/example2.png" />
+            <img class="gallery__img" alt="example" src="img/examples/example1.png" />
             <img class="gallery__img" alt="example" src="img/examples/example3.png" />
             <img class="gallery__img" alt="example" src="img/examples/example4.png" />
             <img class="gallery__img" alt="example" src="img/examples/example5.png" />
             <img class="gallery__img" alt="example" src="img/examples/example6.png" />
         </div>
         <div class="wrapper">
-            <a href="/"><button class="button"><span class="button_arrow">check best works</span></button></a>
+            <a href="/">
+                <button class="button">
+                    check best works
+                    <img alt="" src="./img/arrow_btn.svg" class="button_arrow">
+                    <img alt="" src="./img/arrow_btn_mobile.svg" class="button_arrow_mobile">
+                </button>
+            </a>
             <div class="line">
             </div>
         </div>
@@ -80,16 +106,20 @@
                     <img class="leaders__img" alt="leader" src="img/leaders/leaders1.png" />
                     <img class="leaders__img" alt="leader" src="img/leaders/leaders2.png" />
                     <img class="leaders__img" alt="leader" src="img/leaders/leaders3.png" />
-                </div>
-                <div class="leaders__line">
-                    <img class="leaders__img" alt="leader" src="img/leaders/leaders4.png" />
+                    <img class="leaders__img" alt="leader" src="img/leaders/leaders4.png" id="nexonImg" />
                     <img class="leaders__img" alt="leader" src="img/leaders/leaders5.png" />
                     <img class="leaders__img" alt="leader" src="img/leaders/leaders6.png" />
                     <img class="leaders__img" alt="leader" src="img/leaders/leaders7.png" />
                 </div>
 
             </div>
-            <a href="/"><button class="button"><span class="button_arrow">hire me now</span></button></a>
+    <a href="/">
+        <button class="button">
+            hire me now
+            <img alt="" src="./img/arrow_btn.svg" class="button_arrow">
+            <img alt="" src="./img/arrow_btn_mobile.svg" class="button_arrow_mobile">
+        </button>
+    </a>
         </div>
     </section>
     <section class="geography">
@@ -108,7 +138,7 @@
         </div>
     </section>
     <footer class="footer">
-        <ul class="header__list">
+        <ul class="header__list mobile-version header__list_mobile-version">
             <li>
                 <a href="mailto:"><img class="icon-link" alt="gmail icon" src="img/gmail.svg" /></a>
             </li>
@@ -123,5 +153,6 @@
             </li>
         </ul>
     </footer>
+<script src="index.js"></script>
 </body>
 </html>

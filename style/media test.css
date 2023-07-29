@@ -1,0 +1,205 @@
+
+/*@media all and (max-width: 700px) {*/
+/*    html {*/
+/*        font-size: 10px;*/
+/*    }*/
+
+/*    .header {*/
+/*        flex-direction: column;*/
+/*        margin-top: 50px;*/
+/*    }*/
+/*    .header__list {*/
+/*        margin: 50px 0 0;*/
+/*        display: none;*/
+/*        width: 275px;*/
+/*        justify-content: space-between;*/
+/*    }*/
+
+/*    .leaders__line {*/
+/*        flex-direction: column;*/
+/*        margin: 0;*/
+/*        grid-template-columns: repeat(2, 160px);*/
+/*        grid-template-rows: repeat(4, 100px);*/
+/*    }*/
+
+/*    .leaders__container {*/
+/*        display: flex;*/
+/*        justify-content: space-between;*/
+/*        width: 100%;*/
+/*        padding: 0;*/
+/*    }*/
+
+/*    .leaders__img {*/
+/*        margin-top: 20px;*/
+/*    }*/
+
+
+/*    h3 {*/
+/*        font-size: 1.7rem;*/
+/*        font-style: normal;*/
+/*        text-align: left;*/
+/*        font-weight: 400;*/
+/*        line-height: normal;*/
+/*        text-transform: uppercase;*/
+/*    }*/
+
+/*    .button {*/
+/*        display: block;*/
+/*        margin-left: auto;*/
+/*        margin-right: auto;*/
+/*        width: 317px;*/
+/*        height: 70px;*/
+/*        font-size: 2rem;*/
+/*    }*/
+
+
+/*    .geography__img {*/
+/*        width: 60px;*/
+/*        height: 40px;*/
+/*        margin: 0;*/
+/*    }*/
+
+/*    .about__arrow-container {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .geography__flags {*/
+/*        flex-wrap: wrap;*/
+/*        margin: auto;*/
+/*        justify-content: space-evenly;*/
+/*        width: 317px;*/
+/*        display: grid;*/
+/*        grid-template-columns: repeat(4, 1fr);*/
+/*        padding: 25px 0;*/
+/*        gap: 22px 17px;*/
+/*    }*/
+
+/*    footer {*/
+/*        height: 130px;*/
+/*        margin-top: 50px;*/
+/*    }*/
+
+/*    .paragraph {*/
+/*        font-size: 2.4rem;*/
+/*        font-weight: 400;*/
+/*        line-height: 125%; !* 30px *!*/
+/*        letter-spacing: 1.2px;*/
+/*    }*/
+
+/*    .button_arrow::after {*/
+/*        display: none;*/
+/*    }*/
+
+/*    h1 {*/
+/*        font-size: 4.3rem;*/
+/*        font-weight: 700;*/
+/*        line-height: 120%; !* 51.6px *!*/
+/*        letter-spacing: 4.3px;*/
+/*        text-transform: capitalize;*/
+/*    }*/
+
+
+/*    h2 {*/
+/*        font-size: 2.6rem;*/
+/*        font-style: normal;*/
+/*        line-height: 120%;*/
+/*        letter-spacing: 2.6px;*/
+/*    }*/
+
+/*    .about__block-text {*/
+/*        display: block;*/
+/*        margin-top: 90px;*/
+/*    }*/
+
+
+/*    .about__block-text .paragraph {*/
+/*        margin: 20px 0 60px;*/
+/*    }*/
+
+/*    .mobile-version {*/
+/*        display: block;*/
+/*    }*/
+
+/*    .about__arrow {*/
+/*        width: 100px;*/
+/*        height: 16px;*/
+/*    }*/
+
+/*    .book {*/
+/*        margin-top: 90px;*/
+/*        padding: 60px 0;*/
+/*    }*/
+
+
+
+/*    .gallery {*/
+/*        width: inherit;*/
+/*        overflow: hidden;*/
+/*        justify-content: center;*/
+/*    }*/
+
+
+/*    .gallery__container {*/
+/*        grid-template-columns: 1fr 1fr;*/
+/*        grid-template-rows: 1fr 1fr 1fr;*/
+/*    }*/
+
+/*    .button_arrow {*/
+/*        display: none;*/
+/*    }*/
+/*    .button_arrow_mobile {*/
+/*        display: inline;*/
+/*        margin-left: 20px;*/
+/*        width: 31px;*/
+/*        height: 15px;*/
+/*    }*/
+
+/*    .about {*/
+/*        margin-top: 40px;*/
+/*    }*/
+
+/*    .header__list_mobile-version {*/
+/*        display: flex;*/
+/*    }*/
+
+/*    .icon-link {*/
+/*        width: 50px;*/
+/*        height: 50px;*/
+/*    }*/
+
+/*    .wrapper {*/
+/*        width: 317px;*/
+/*    }*/
+
+/*    .line {*/
+/*        background: #000;*/
+/*        margin-top: 60px;*/
+
+/*    }*/
+
+/*    .line::after {*/
+/*        width: 12px;*/
+/*        height: 12px;*/
+/*        margin-top: -5px;*/
+/*        margin-right: -3px;*/
+/*        background: url("../img/arrow_part_mobile.svg");*/
+/*        opacity: 1;*/
+/*    }*/
+
+/*    .leaders {*/
+/*        margin-top: 60px;*/
+/*    }*/
+
+/*    .leaders__img:nth-child(7){*/
+/*        height: 35px;*/
+/*    }*/
+
+/*    .geography {*/
+/*        margin-top: 50px;*/
+/*    }*/
+
+/*    .footer .header__list {*/
+/*        width: 260px;*/
+/*        margin-top: 0;*/
+/*    }*/
+/*}*/
